@@ -1,0 +1,42 @@
+body{
+  background-color: #1d2951 !important;
+}
+
+.form-div{
+	margin: 50px auto 50px;
+	padding: 25px 15px 10px 15px;
+	border: 1px solid #80ced7;
+	border-radius: 5px;
+	background-color: #edf2f4 !important;
+	font-size: 1.1em;
+}
+
+.form-div.login{
+	margin-top: 100px;
+}
+
+.logout{
+	color: #EF233C;
+}
+
+.logout:hover{
+	color: #D80032;
+}
+
+button{
+	border-color: #EF233C !important;
+	background: #EF233C !important;
+}
+
+button:hover{
+	border-color: #D80032 !important;
+	background: #D80032 !important;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}

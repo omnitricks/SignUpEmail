@@ -1,0 +1,167 @@
+body {
+    font-size: 19px;
+    background: #1d2951;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px auto;
+    width: 70%;
+    background: #EDF2F4;
+    overflow: hidden
+  }
+
+th, td{
+    height: 30px;
+}
+
+
+
+tbody:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+td:nth-child(1) {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 600px;
+    display: block;
+    overflow: hidden
+}
+td:nth-child(2) {
+    width: 10%;
+    text-align: right;
+}
+td:nth-child(3) {
+    width: 4%;
+}
+td:nth-child(4) {
+    width: 4%;
+}
+
+form {
+    width: 67%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #bbbbbb; 
+    border-radius: 5px;
+    background: #EDF2F4;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+textarea {
+    height: 100px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    resize: none;
+}
+
+.btn-sav {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #EF233C;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-sav:hover {
+    background: #D80032;
+}
+
+.btn-up {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #233cef;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-up:hover {
+    background: #0032d8;
+}
+
+.edit_btn {
+    text-decoration: none;
+}
+
+.del_btn {
+    text-decoration: none;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
+
+.edit_pic{
+    width: 30px;
+    height: 30px;
+}
+
+.del_pic{
+    width: 30px;
+    height: 30px;
+}
+
+.edit_pic_alt{
+    width: 30px;
+    height: 30px;
+}
+
+.del_pic_alt{
+    width: 30px;
+    height: 30px;
+}
+
+a img:first-child {
+    display: none;  
+}
+a:hover img:first-child {
+    display: block;  
+}
+a:hover img:last-child {
+    display: none;  
+}
+
+.btn-home {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #EF233C;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-home:hover {
+    background: #D80032;
+}

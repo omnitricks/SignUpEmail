@@ -1,0 +1,7 @@
+--space-cadet: #1d2951;
+--manatee: #979aaa;
+--alice-blue: #edf2f4ff;
+--imperial-red: #ef233cff;
+--crimson: #d80032ff;
+
+#edf2f4 Color Hex
